@@ -7,7 +7,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN chmod +x /app/entrypoint.sh \
-	&& npm install
+RUN npm install -g pnpm \
+        && chmod +x /app/entrypoint.sh \
+        && pnpm install
 
 CMD ["bash", "/app/entrypoint.sh"]
