@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
-npm install
-nodemon
+pnpm install
+pnpm exec nodemon

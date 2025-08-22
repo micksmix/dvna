@@ -106,12 +106,12 @@ export MYSQL_PORT=3306
 
 Install Dependencies
 ```bash
-npm install
+pnpm install
 ```
 
 Start the application
 ```bash
-npm start
+pnpm start
 ```
 
 Access the application at http://localhost:9090 and start practicing!
